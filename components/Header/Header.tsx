@@ -10,12 +10,12 @@ export default function Header() {
   return (
     <header className={css.header}>
       <div className={css.titleBlock}>
-        <Image src="/turon-logo.webp" width={60} height={60} alt="logo" />
+        <Image src="/vid-logo.png" width={60} height={60} alt="logo" />
         {lang.value === "ru" && (
-          <h1 className={css.title}>TuronBank — кредит для всех!</h1>
+          <h1 className={css.title}>VideoChat 1v1 — Я тебя жду!</h1>
         )}
         {lang.value === "uz" && (
-          <h1 className={css.title}>TuronBank - kredit hamma uchun!</h1>
+          <h1 className={css.title}>VideoChat 1v1 - Men sizni kutaman!</h1>
         )}
       </div>
       <div className={css.languageSelector}>

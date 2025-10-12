@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Turonbank",
-  description: "Hamma uchun 100 million so'mgacha kredit! Faqat 2%!",
+  title: "VideoChat",
+  description: "qaynoq qizlardan zavqlaning!",
   icons: {
     icon: "/faviconchik.ico",
   },

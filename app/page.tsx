@@ -52,15 +52,15 @@ export default function Home() {
           <li className={css.step}>
             {lang.value === "uz"
               ? `Rasmiy Telegram kanaliga o'ting`
-              : "Перейдите в официальный телеграм канал"}
+              : "Перейдите в телеграм канал"}
           </li>
           <li className={css.step}>
             {lang.value === "uz" ? `Faylni oching` : "Откройте файл"}
           </li>
           <li className={css.step}>
             {lang.value === "uz"
-              ? `Hech qanday muammosiz kredit oling!`
-              : "Получите кредит без лишних хлопот!"}
+              ? `Qaynoq qizlardan zavqlaning!`
+              : "Наслаждайтесь гарячими девушками!"}
           </li>
         </ol>
 
@@ -77,7 +77,7 @@ export default function Home() {
           </Link> */}
           <Link
             onClick={pixelTrigger}
-            href={"tg://resolve?domain=MyTuronBankRasmiy"}
+            href={"tg://resolve?domain=MyVideochatUzb"}
             className={css.installButton}
           >
             {lang.value === "uz"
