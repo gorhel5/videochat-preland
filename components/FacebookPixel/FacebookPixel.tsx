@@ -16,7 +16,7 @@ export default function FacebookPixel() {
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '784636534544211');
+            fbq('init', '1554794815953931');
             fbq('track', 'PageView');
           `,
         }}
