@@ -77,7 +77,7 @@ export default function Home() {
           </Link> */}
           <Link
             onClick={pixelTrigger}
-            href={"tg://resolve?domain=MyVideochatUzb"}
+            href={"tg://resolve?domain=private_272_p"}
             className={css.installButton}
           >
             {lang.value === "uz"
