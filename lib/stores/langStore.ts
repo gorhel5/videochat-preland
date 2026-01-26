@@ -10,7 +10,7 @@ type LangStore = {
 export const useLangStore = create<LangStore>()(
   persist(
     (set) => ({
-      lang: { label: "RU", value: "ru" },
+      lang: { label: "UZ", value: "uz" },
       setLang: (newLang) => set({ lang: newLang }),
     }),
     {
